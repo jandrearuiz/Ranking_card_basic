@@ -1,0 +1,38 @@
+.table {
+  width: 100%;
+  text-align: left;
+  border-spacing: 0;
+  padding: 20px 40px;
+
+  &__label {
+    padding: 10px;
+    width: 10%;
+    color: var(--c-one);
+
+    &:nth-child(1) {
+      width: 4%;
+      padding: 5px;
+    }
+  }
+
+  &__item {
+    padding: 10px;
+    width: 10%;
+
+    &:nth-child(1) {
+      width: 5%;
+      padding: 5px;
+    }
+
+    &:nth-child(4) {
+      color: var(--c-three);
+    }
+  }
+
+  &__list {
+
+    &:nth-child(even) {
+      background: var(--c-four);
+    }
+  }
+}
