@@ -1,7 +1,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: 87%;
   height: 510px;
   padding: 20px;
   margin: 5px;
@@ -14,5 +14,9 @@
     margin-bottom: 0;
     text-align: center;
     color: var(--c-two);
+  }
+
+  @media (min-width: $xx-large) {
+    width: 33%;
   }
 }
