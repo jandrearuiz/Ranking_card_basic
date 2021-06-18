@@ -3,7 +3,10 @@
   justify-content: center;
   align-items: center;
 
-  @media (min-width: $xx-large) {
+  @media (max-width: $xx-large) and (min-width: $large){
     height: 100vh;
+  }
+  @media (min-width: $xx-large) {
+    height: 100vh;  
   }
 }

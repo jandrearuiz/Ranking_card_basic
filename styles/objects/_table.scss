@@ -13,10 +13,6 @@
       width: 4%;
       padding: 5px;
     }
-
-    @media (min-width: $xx-large) {
-      padding: 10px;
-    }
   }
 
   &__item {
@@ -31,19 +27,11 @@
     &:nth-child(4) {
       color: var(--c-three);
     }
-
-    @media (min-width: $xx-large) {
-      padding: 10px;
-    }
   }
 
   &__list {
     &:nth-child(even) {
       background: var(--c-four);
     }
-  }
-
-  @media (min-width: $xx-large) {
-    padding: 20px 40px;
   }
 }

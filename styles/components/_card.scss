@@ -14,8 +14,13 @@
     color: var(--c-two);
   }
 
-  @media (min-width: $xx-large) {
+  @media (max-width: $xx-large) and (min-width: $large){
     width: 33%;
-    height: 510px;
+    height: 550px;
+
+  }
+  @media (min-width: $xx-large) {
+    width: 30%;
+    height: 550px;
   }
 }
