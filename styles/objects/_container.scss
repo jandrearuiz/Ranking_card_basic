@@ -9,10 +9,11 @@
   box-shadow: 1px 2px 6px var(--c-eight);
 
   @media (max-width: $xx-large) and (min-width: $medium){
-    padding: 10px;
+    padding: 20px;
     width: 60%;
   }
   @media (min-width: $xx-large) {
     width: 60%;
+    padding: 20px;
   }
 }
