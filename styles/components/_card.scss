@@ -1,8 +1,6 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 87%;
-  height: 510px;
   padding: 20px;
   margin: 5px;
   align-self: baseline;
@@ -18,5 +16,6 @@
 
   @media (min-width: $xx-large) {
     width: 33%;
+    height: 510px;
   }
 }
