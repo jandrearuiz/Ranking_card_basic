@@ -1,0 +1,27 @@
+.image {
+  width: 200px;
+  margin: 20px;
+  align-self: center;
+  border-radius: 10px;
+  opacity: 0.5;
+  transform: translatey(-20px);
+  transition: transform 0.25s;
+
+  &:hover {
+    transform: translatey(0);
+    transform: scale(1.3);
+    animation-name: images;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes images {
+    25% {
+      opacity: 0.7;
+    }
+    75% {
+      opacity: 1;
+      border-radius: 25px;
+    }
+  }
+}

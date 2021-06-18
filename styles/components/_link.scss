@@ -1,4 +1,8 @@
 .link {
   text-decoration: none;
   color: var(--c-two);
+
+  &:hover {
+    color: var(--c-eight);
+  }
 }

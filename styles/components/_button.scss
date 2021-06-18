@@ -1,0 +1,15 @@
+.button {
+  padding: 10px 60px;
+  background: var(--c-six);
+  margin-bottom: 30px;
+  text-decoration: none;
+  background-image: linear-gradient(to right, var(--c-seven) 0%, var(--c-eight) 100%);
+  color: var(--c-four);
+  border-radius: 25px;
+  transition: background-image .5s;
+  
+
+  &:hover {
+    background-image: linear-gradient(to right, var(--c-nine) 0%, var(--c-ten) 100%);
+  }
+}
