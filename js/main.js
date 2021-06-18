@@ -9,7 +9,7 @@ links.forEach(function(link) {
     let content = document.querySelector('.cars');
 
     setTimeout(function(){
-      location.href = "/";
+      location.href = "../index.html";
     },600);
   })
 });
