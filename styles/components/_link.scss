@@ -5,4 +5,11 @@
   &:hover {
     color: var(--c-eight);
   }
+
+  &__disabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: .5;
+    text-decoration: none;
+  }
 }
